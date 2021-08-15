@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 
-with open("README.rst", "r", encoding="utf-8") as fh:
+with open("README.md") as fh:
     long_description = fh.read()
 
 setup(
-    name="PyForbes",
-    version="0.0.1",
+    name="pyforbes",
+    version="1.0.1",
     author="laxmena",
     author_email="ConnectWith@laxmena.com",
     description="Python package to collect data from Forbes.",
@@ -33,7 +33,7 @@ setup(
         "Topic :: Utilities",
     ],
     install_requires=[
-        "pandas==1.3.1", 
+        "pandas>=1.3", 
         "numpy",
         "requests"
         ],
