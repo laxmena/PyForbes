@@ -2,7 +2,7 @@
    :target: https://pypi.org/laxmena/pyforbes
 
 .. image:: https://readthedocs.org/projects/pyforbes/badge/?version=latest
-  :target: https://pypi.org/laxmena/pyforbes
+  :target: https://pyforbes.readthedocs.io/en/latest/
 
 .. image:: https://img.shields.io/badge/StackOverflow-PyForbes-blue.svg
    :target: https://stackoverflow.com/questions/tagged/pyforbes
@@ -10,9 +10,12 @@
 .. image:: https://img.shields.io/pypi/pyversions/pyforbes.svg
    :target: https://pypi.org/laxmena/pyforbes
 
+PyForbes - Python wrapper for Forbes API
+========================================
+
 Welcome to the GitHub repository of PyForbes!
 
-`PyForbes <http://www.github.com/laxmena/PyForbes>`_ is a unofficial Python 
+`PyForbes <http://www.github.com/laxmena/PyForbes>`_ is an unofficial Python 
 wrapper for Forbes API.
 
 PyForbes allows developers to analyze Forbes data or build web 
