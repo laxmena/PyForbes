@@ -8,7 +8,7 @@ repo_url = 'https://github.com/{}'.format(repo_slug)
 
 setup(
     name="pyforbes",
-    version="1.0.2",
+    version="1.0.3",
     author="laxmena",
     author_email="ConnectWith@laxmena.com",
     description="Python package to collect data from Forbes.",
@@ -18,6 +18,8 @@ setup(
     download_url="https://github.com/laxmena/PyForbes",
     project_urls={
         "Bug Tracker": "https://github.com/laxmena/PyForbes/issues",
+        'CI: Circle': 'https://circleci.com/gh/{}'.format(repo_slug),
+        'GitHub: repo': repo_url,
     },
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -36,7 +38,7 @@ setup(
         "Topic :: Utilities",
     ],
     install_requires=[
-        "pandas>=1.3", 
+        "pandas>=1.1.3", 
         "numpy",
         "requests"
         ],
@@ -51,11 +53,5 @@ setup(
     packages=find_packages(include=["pyforbes", "pyforbes.*"]),
     python_requires=">=3.6",
     license="MIT",
-    keywords="forbes, forbes400, forbes list, forbes api, pyforbes",
-    project_urls={
-        'CI: Circle': 'https://circleci.com/gh/{}'.format(repo_slug),
-        'GitHub: repo': repo_url,
-        'GitHub: issues': '{}/issues'.format(repo_url),
-    },
-    url="https://pyforbes.readthedocs.io/"
+    keywords="python forbes api pyforbes",
 )
