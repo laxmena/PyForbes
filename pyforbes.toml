@@ -3,5 +3,6 @@ requires = [
     "setuptools>=42",
     "wheel",
     "requests",
+    "pandas"
 ]
-build-backend = "setuptools.build_meta"
+build-backend = "setuptools.build_meta"china-billionaires

@@ -1,2 +1,3 @@
 # PyForbesList
-Python package that fetches data from Forbes List and loads it into pandas dataframe.
+Python package to fetches data from Forbes.
+
