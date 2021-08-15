@@ -11,6 +11,12 @@ PyForbes allows developers to analyze Forbes data or build web application with 
 
 PyForbes provides ease of access to developers and data scientists by providing python interface to directly get the Forbes data as a [Pandas.DataFrame](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html) or JSON Dictionary.
 
+## Installation
+Install with `pip`
+```
+$ pip install pyforbes
+```
+
 A Simple PyForbes application typically looks like this
 
 ```py
