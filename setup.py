@@ -1,18 +1,11 @@
-import pyforbes
-
-try:
-    from setuptools import setup
-except ImportError:
-    from distutils.core import setup
+from setuptools import setup, find_packages
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-requried = ["requests", "pandas>=1.3.1"]
-
 setup(
-    name="pyforbes",
-    version=pyforbes.__version__,
+    name="PyForbes",
+    version="0.0.1",
     author="laxmena",
     author_email="ConnectWith@laxmena.com",
     description="Python package to collect data from Forbes.",
@@ -39,8 +32,12 @@ setup(
         "Programming Language :: Python :: 3.9",
         "Topic :: Utilities",
     ],
-    install_requires=requried,
-    package_dir={"": "pyforbes"},
+    install_requires=[
+        "pandas==1.3.1", 
+        "numpy",
+        "requests"
+        ],
+    packages=find_packages(include=["pyforbes", "pyforbes.*"]),
     python_requires=">=3.6",
     license="MIT",
     keywords="forbes, forbes400, forbes list, forbes api, pyforbes",
