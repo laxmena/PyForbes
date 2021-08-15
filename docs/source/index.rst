@@ -45,6 +45,6 @@ A Simple PyForbes application typically looks like this
    billionaires_df = flist.get_df('billionaires', year=2020)
 
 In order to make the most out of PyForbes, you should start
-with the :ref:`examples <examples>` that will lead you through the most common
+with the `Documentation:Examples <https://pyforbes.readthedocs.io/en/latest/examples.html>`_ that will lead you through the most common
 aspects of the package. 
 
