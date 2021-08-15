@@ -39,7 +39,7 @@ jobs:
           name: Install Dependencies
           command: |
                   python -m virtualenv env
-                  .env/bin/activate
+                  . env/bin/activate
                   pip install --no-cache-dir -r requirements.txt
       - run:
           name: Run tests
