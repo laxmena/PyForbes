@@ -1,10 +1,16 @@
-import setuptools
 import pyforbes
+
+try:
+    from setuptools import setup
+except ImportError:
+    from distutils.core import setup
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-setuptools.setup(
+requried = ["requests", "pandas>=1.3.1"]
+
+setup(
     name="pyforbes",
     version=pyforbes.__version__,
     author="laxmena",
@@ -33,9 +39,9 @@ setuptools.setup(
         "Programming Language :: Python :: 3.9",
         "Topic :: Utilities",
     ],
+    install_requires=requried,
     package_dir={"": "pyforbes"},
-    packages=setuptools.find_packages(where="pyforbes"),
     python_requires=">=3.6",
-    license='MIT',
-    keywords='forbes, forbes400, forbes list, forbes api, pyforbes'
+    license="MIT",
+    keywords="forbes, forbes400, forbes list, forbes api, pyforbes",
 )
