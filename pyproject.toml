@@ -3,5 +3,6 @@ requires = [
     "setuptools>=51.0.0",
     "wheel>=0.27",
     "pandas",
+    "sphinx",
 ]
 build-backend = "setuptools.build_meta"
