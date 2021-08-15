@@ -1,6 +1,6 @@
-# 🐍 PyForbes - Python wrapper for Forbes API
+# PyForbes - Python wrapper for Forbes API
 
-Welcome to the GitHub repository of **PyForbes**!
+Welcome to the GitHub repository of **PyForbes**
 
 [PyForbes](http://www.github.com/laxmena/PyForbes) is an unofficial Python wrapper for Forbes API.
 
@@ -10,8 +10,8 @@ PyForbes provides ease of access to developers and data scientists by providing 
 
 A Simple PyForbes application typically looks like this
 
-```
-   from pyforbes import ForbesList
+```py
+from pyforbes import ForbesList
    
    flist = ForbesList()
 

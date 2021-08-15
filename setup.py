@@ -1,15 +1,14 @@
 from setuptools import setup, find_packages
 
-with open("README.md") as fh:
-    long_description = fh.read()
+long_desc = open("README.md").read()
 
 setup(
     name="pyforbes",
-    version="1.0.1",
+    version="1.0.2",
     author="laxmena",
     author_email="ConnectWith@laxmena.com",
     description="Python package to collect data from Forbes.",
-    long_description=long_description,
+    long_description=long_desc,
     long_description_content_type="text/markdown",
     url="https://github.com/laxmena/PyForbes",
     download_url="https://github.com/laxmena/PyForbes",
