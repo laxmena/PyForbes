@@ -1,4 +1,7 @@
-# PyForbes - Python wrapper for Forbes API
+# PyForbes - Python wrapper for Forbes API 🐍
+# PyCalendly
+<a href="https://codeclimate.com/github/laxmena/PyCalendly/maintainability"><img src="https://api.codeclimate.com/v1/badges/12cadf4283a14dbb59eb/maintainability" /></a> [![CircleCI](https://circleci.com/gh/laxmena/PyForbes/tree/main.svg?style=svg)](https://circleci.com/gh/laxmena/PyForbes/tree/main) [![PyPI Python Version](https://img.shields.io/pypi/v/pyforbes.svg)](https://pypi.org/project/pyforbes/) [![Docs](https://readthedocs.org/projects/pyforbes/badge/?version=latest)](https://pyforbes.readthedocs.io/en/latest/) [![Docs](https://img.shields.io/badge/StackOverflow-PyForbes-blue.svg)](https://stackoverflow.com/questions/tagged/pyforbes) [![Docs](https://img.shields.io/pypi/pyversions/pyforbes.svg)](https://pypi.org/project/pyforbes/)
+
 
 Welcome to the GitHub repository of **PyForbes**
 

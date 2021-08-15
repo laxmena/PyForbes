@@ -2,6 +2,10 @@ from setuptools import setup, find_packages
 
 long_desc = open("README.md").read()
 
+name = 'PyForbes'
+repo_slug = 'pyforbes/{}'.format(name.lower())
+repo_url = 'https://github.com/{}'.format(repo_slug)
+
 setup(
     name="pyforbes",
     version="1.0.2",
@@ -48,4 +52,10 @@ setup(
     python_requires=">=3.6",
     license="MIT",
     keywords="forbes, forbes400, forbes list, forbes api, pyforbes",
+    project_urls={
+        'CI: Circle': 'https://circleci.com/gh/{}'.format(repo_slug),
+        'GitHub: repo': repo_url,
+        'GitHub: issues': '{}/issues'.format(repo_url),
+    },
+    url="https://pyforbes.readthedocs.io/"
 )
