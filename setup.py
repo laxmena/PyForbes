@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 long_desc = open("README.md").read()
 
 name = 'PyForbes'
-repo_slug = 'pyforbes/{}'.format(name.lower())
+repo_slug = 'laxmena/{}'.format(name.lower())
 repo_url = 'https://github.com/{}'.format(repo_slug)
 
 setup(
