@@ -1,7 +1,6 @@
 from pyforbes.exceptions import DataUnavailableError
 from pandas import DataFrame
 from pyforbes.utils.constants import ORG, PERSON
-from pyforbes.exceptions import DataUnavailableError
 
 
 def response_to_df(response, category):
