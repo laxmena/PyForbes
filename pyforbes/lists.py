@@ -3,7 +3,7 @@ from pyforbes.exceptions import ListNotSupportedError
 from pyforbes.utils.lists_config import ALL_LISTS
 from pyforbes.utils.constants import ORG_LIST_URL
 from pyforbes.utils.constants import PERSON_LIST_URL
-from pyforbes.utils.constants import ORG, CATEGORY
+from pyforbes.utils.constants import ORG, CATEGORY, PERSON
 
 from datetime import date
 from pyforbes.utils.requests import ForbesRequest
@@ -34,6 +34,30 @@ class ForbesList(object):
             url = PERSON_LIST_URL.format(list_name, year)
         response = self.request.get(url)
         return response
+    
+    def fetch_organisation(self, name, year=date.today().year):
+        """API endpoint for fetching organisaton information from the ForbesAPI     
+
+        Args:
+            name (str): [Name of the organisation being fetched]
+            year ([int], optional): [Year to fetch the data for]. Defaults to date.today().year.
+
+        Returns:
+            requests.response: returns response object for the API call.
+        """
+        return self._resolve_and_request(self, name, ORG, year)
+    
+    def fetch_person(self, name, year=date.today().year):
+        """API endpoint for fetching person information from the ForbesAPI     
+
+        Args:
+            name (str): [Name of the person being fetched]
+            year ([int], optional): [Year to fetch the data for]. Defaults to date.today().year.
+
+        Returns:
+            requests.response: returns response object for the API call.
+        """
+        return self._resolve_and_request(self, name, PERSON, year)
 
     def _get_category(self, list_name):
         """Helper method to get the category of the given list name
