@@ -6,7 +6,7 @@ Welcome to the GitHub repository of **PyForbes**
 
 [PyForbes](http://www.github.com/laxmena/PyForbes) is an unofficial Python wrapper for the Forbes API.
 
-PyForbes allows developers to analyze Forbes data and build web applications with this data.
+PyForbes allows developers to analyze Forbes data and/or build web applications with this data.
 
 PyForbes provides ease of access to developers and data scientists by providing a Python interface to directly access Forbes data as a [Pandas.DataFrame](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html) or JSON Dictionary.
 
