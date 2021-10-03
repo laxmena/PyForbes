@@ -6,9 +6,9 @@ import random
 short_test_limit = 10
 
 forbes_list = ForbesList()
-all_list_names = [key for key in ALL_LISTS.keys()]
-person_list_names = [key for key in PERSON_LISTS.keys()]
-org_list_names = [key for key in ORG_LISTS.keys()]
+all_list_names = list(ALL_LISTS.keys())
+person_list_names = list(PERSON_LISTS.keys())
+org_list_names = list(ORG_LISTS.keys())
 
 random.shuffle(person_list_names)
 random.shuffle(person_list_names)
