@@ -1,7 +1,7 @@
 from pyforbes.exceptions import DataUnavailableError
 from pandas import DataFrame
 from pyforbes.utils.constants import ORG, PERSON
-
+import pandas as pd
 
 def response_to_df(response, category):
     """Extract the data from API and load into Pandas DataFrame.
