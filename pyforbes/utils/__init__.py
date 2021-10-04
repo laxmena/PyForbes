@@ -25,7 +25,7 @@ def response_to_df(response, category):
         data = personList.get("personsLists")
     if not data:
         raise DataUnavailableError
-    return DataFrame(data)
+    return DataFrame(pd.json_normalize(data))
 
 
 def response_to_json(response):
